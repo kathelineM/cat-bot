@@ -1,18 +1,18 @@
-# 🎓 Студенческие проекты
+# 🎓 Student Projects
 
-Этот репозиторий содержит мои учебные проекты, выполненные в рамках курсов и самостоятельного изучения программирования.
+This repository contains my academic projects completed during courses and self-study of programming.
 
-## 📂 Список проектов
+## 📂 Project List
 
-### 1. Telegram-бот с котиками
-- **Технологии**: Python, aiogram, TheCatAPI
-- **Функции**: Отправка случайных фото котиков по запросу
-- [Файл проекта](/CATBOT)
+### 1. Telegram Cat Bot
+- **Technologies**: Python, aiogram, TheCatAPI
+- **Features**: Sends random cat pictures on request
+- [Project files](/CATBOT)
 
-## 🛠 Установка и запуск
+## 🛠 Setup and Running
 
-Для каждого проекта:
-1. Перейдите в папку проекта
-2. Установите зависимости:
+For each project:
+1. Navigate to the project folder
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
