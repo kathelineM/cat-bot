@@ -1,6 +1,6 @@
 # 🎓 Student Projects
 
-This repository contains my academic projects completed during courses and self-study of programming.
+This repository contains my academic projects completed during courses and self-study of programming and cybersecurity.
 
 ## 📂 Project List
 
@@ -9,10 +9,11 @@ This repository contains my academic projects completed during courses and self-
 - **Features**: Sends random cat pictures on request
 - [Project files](/CATBOT)
 
-## 🛠 Setup and Running
+### 2. Log Analyzer (Security Tool)
+- **Technologies**: Python, Regular Expressions
+- **Features**:
+  - Detects SQLi, XSS, Path Traversal in server logs
+  - Lightweight (no external dependencies)
+  - Supports Apache/Nginx logs
+- [Project files](/log_checker)
 
-For each project:
-1. Navigate to the project folder
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
