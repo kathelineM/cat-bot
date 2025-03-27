@@ -1,26 +1,26 @@
-# Бот с котиками 🐱
+# Cat Bot 🐱
 
-Телеграм-бот, который присылает случайных котиков.
+Telegram bot that sends random cat pictures.
 
-## Как запустить
+## How to run
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
 ```bash
 git clone https://github.com/kathelineM/projects.git
 cd CATBOT
 ```
 
-2. Установите зависимости:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Создайте файл `.env` и добавьте токен:
+4. Create .env file and add your token:
 ```ini
 BOT_TOKEN=ваш_токен_бота
 ```
 
-4. Запустите бота:
+4. Run the bot:
 ```bash
 python cat_bot.py
 ```
