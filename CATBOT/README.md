@@ -6,7 +6,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/kathelineM/cat-bot.git
+git clone https://github.com/kathelineM/projects.git
 cd CATBOT
 ```
 
