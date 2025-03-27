@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 4. Create .env file and add your token:
 ```ini
-BOT_TOKEN=ваш_токен_бота
+BOT_TOKEN=your_token
 ```
 
 4. Run the bot:
