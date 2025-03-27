@@ -3,15 +3,24 @@
 Телеграм-бот, который присылает случайных котиков.
 
 ## Как запустить
-1. Установите зависимости:
+
+1. Клонируйте репозиторий:
 ```bash
-pip install aiogram requests python-dotenv
+git clone https://github.com/ваш-логин/cat-bot.git
+cd cat-bot
 ```
-2. Создайте файл `.env` и добавьте токен:
+
+2. Установите зависимости:
+```bash
+pip install -r requirements.txt
 ```
-BOT_TOKEN=ваш_токен
+
+3. Создайте файл `.env` и добавьте токен:
+```ini
+BOT_TOKEN=ваш_токен_бота
 ```
-3. Запустите бота:
+
+4. Запустите бота:
 ```bash
 python cat_bot.py
 ```
