@@ -5,6 +5,22 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import asyncio
 from dotenv import load_dotenv
 import os
+import sys
+import subprocess
+
+def install_dependencies():
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
+        print("Зависимости успешно установлены")
+    except subprocess.CalledProcessError:
+        print("Ошибка установки зависимостей")
+        sys.exit(1)
+
+# Проверяем зависимости при запуске
+if not os.path.exists("requirements.txt"):
+    print("⚠️ Файл requirements.txt не найден")
+else:
+    install_dependencies()
 
 # Настройки
 load_dotenv()  
