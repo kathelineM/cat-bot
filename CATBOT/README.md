@@ -6,8 +6,8 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/ваш-логин/cat-bot.git
-cd cat-bot
+git clone https://github.com/kathelineM/cat-bot.git
+cd CATBOT
 ```
 
 2. Установите зависимости:
