@@ -18,7 +18,7 @@ def install_dependencies():
 
 # Проверяем зависимости при запуске
 if not os.path.exists("requirements.txt"):
-    print("⚠️ Файл requirements.txt не найден")
+    print("Файл requirements.txt не найден")
 else:
     install_dependencies()
 
